@@ -4,9 +4,9 @@
 
 #include<iostream>
 
-template<typename T, typename...U> //declaring the parameters pack
+template<typename T, typename...args> //declaring the parameters pack
 	struct counter{
-		enum {value = 1 + counter<U...>::value}; //unpacking the parameter pack
+		enum {value = 1 + counter<args...>::value}; //unpacking the parameter pack
 	};
 
 template<typename T> 
