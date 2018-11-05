@@ -1,2 +1,2 @@
 # templateProgramming
-Programs that uses template programming in C++
+Programs that uses template meta programming in C++
